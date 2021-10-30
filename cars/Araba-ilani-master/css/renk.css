@@ -1,0 +1,96 @@
+h1 {
+    color: #A9333A;
+    font-size: 20px;
+}
+
+h2 {
+    color: #ac1b1b;
+}
+
+.ortala {
+    margin-left: 4%
+}
+
+.menu {
+    list-style: none;
+    display: block;
+    font-size: 25px;
+    color: rgb(47, 86, 194);
+    font-family: monospace;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.menu li {
+    display: inline;
+    margin: 10px;
+    position: relative;
+}
+
+.logo {
+    margin-left: 45%;
+}
+
+#logo-yazi {
+    font-size: 18px;
+    margin-left: 45%;
+    color: tomato;
+}
+
+p {
+    font-size: 25px;
+    margin-left: 15%;
+    font-family: monospace;
+    color:rgb(133, 16, 133);
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.b-yazi {
+    color: tomato;
+    font-size: 15px;
+    font-family:monospace;
+    margin-left: 40%;
+}
+
+/* arkaplana resim yerleştirme ve o resmi tam boyuta ayarlama */
+body {
+    background-image: url(../images/background/way3.jpg);
+    background-size: cover;
+}
+
+.ul {
+    color: rgb(136, 22, 136);
+    font-size: 35px;
+    
+} 
+
+.ul-ana-sayfa {
+    color: violet;
+    font-size: 35px;
+    margin-left: 35%;
+} 
+
+
+/* a etiketi içine yazılır. */
+/* a#ana:link {
+    color:rgb(89, 187, 76)
+} 
+
+a.moto:link{
+    background-color: brown;
+} */
+
+.cerceve {
+    border: 1.2px solid;
+}
+
+a:active {
+    position: relative;
+    top: 2px;
+}
+
+a.test:hover {
+    color: rgb(12, 6, 6);
+}
+
